@@ -5,6 +5,7 @@ import java.io.IOException;
 
 /**
  * 创建文件/文件夹
+ * 创建文件夹使用mkdir()和mkdirs(),前者只能创建单层次文件夹，后者可以创建需要的所有层次文件夹
  */
 public class FileDemo3 {
     public static void main(String[] args) {
